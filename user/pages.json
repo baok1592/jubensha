@@ -1,0 +1,104 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+			"^st-(.*)":"@/components/st-$1/st-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				 "enablePullDownRefresh": true
+				 
+			}
+		}
+		
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/script/script",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/ranking/ranking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/script/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+		,{
+		    "path" : "pages/user/collect/collection",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/user/collect/map",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		}
+    ],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#00c657",
+		"borderStyle": "white",
+		"backgroundColor": "#171824",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/yzy_sy.png",
+				"selectedIconPath": "static/icon/yzy_sys.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/script/script",
+				"iconPath": "static/icon/yzy_zys.png",
+				"selectedIconPath": "static/icon/yzy_zyss.png",
+				"text": "剧本库"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icon/yzy_wd.png",
+				"selectedIconPath": "static/icon/yzy_wds.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {"titleNView": false} 
+	}
+}
