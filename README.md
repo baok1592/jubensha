@@ -26,10 +26,11 @@
 访问：域名/h5 进入前端
 
 扫码演示
-![](README_files/1.jpg)
+<img src="./imgs/1.png" style="zoom:50%">
+
 
 后台演示
-http://	rhskl.ruhuashop.com/cms/ 账号：admin 密码123456
+http://rhskl.ruhuashop.com/cms/ 账号：admin 密码123456
 
 **开源版使用须知
 允许用于个人学习、毕业设计、教学案例、公益事业
