@@ -26,7 +26,7 @@
 访问：域名/h5 进入前端
 
 扫码演示
-<img src="./imgs/1.png" style="zoom:50%">
+<img src="./imgs/1.png" style="zoom:20%">
 
 
 后台演示
