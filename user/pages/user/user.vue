@@ -41,7 +41,7 @@
 				icon_class:{
 					'color': '#dab706'
 				},
-				img: require('@/common/imgs/123.jpg'),
+				img: require('@/common/imgs/3.jpg'),
 				user: {
 					avatarUrl: "",
 					city: "",
